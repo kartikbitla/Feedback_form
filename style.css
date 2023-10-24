@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background{
+    background-color:burlywood;    
+    padding:50px;    
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.card{    
+    background-color: rgb(61, 55, 55);    
+    padding:50px;
+    width:30%;
+    margin:30px;    
+    border-radius: 15px;        
+}
+
+
+
+.img{
+    border-radius: 10px;    
+}
+
+.forms{    
+    margin-bottom: 20px;
+    margin-top:20px;
+    text-align: left;       
+}
+
+input{
+    width:250px;
+    height:45px;
+    margin:10px;
+    border-radius: 8px;
+    margin-top:30
+    
+}
+
+label{
+    font-size: 20;
+    font-weight: bold;
+    margin-top:50px
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top:10px;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+.error-msg{
+    color:red;
+    font-weight: bold;
+    
+}

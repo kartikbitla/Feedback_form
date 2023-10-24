@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body class="background">
+    <div class="card">
+        <img src="/img/logo.jpeg" class="img">
+        <h1 id="head">Help us Improve</h1>
+        <button id="another_feedback">Another Feedback</button>
+
+        <div class="forms" id="forms">
+            <form class="forms">
+                <label for="fname">1. First Name:</label>
+                <input type="text" id="fname" name="fname"placeholder=" First Name" style="margin-left:50px;">
+                <br>
+
+                <label for="lname">2. Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder=" Last Name" style="margin-left:50px;">
+                <br>
+
+                <label for="email">3. Email:</label>
+                <input type="text" id="email" name="email" placeholder="  xyz@example.com" style="margin-left:90px;">
+                <br>
+
+                <label for="contact">4. Contact:</label>
+                <input type="tel" id="contact" name="contact" placeholder="  No Spamming" style="margin-left:75px;">
+                <br>
+
+                <label for="student_id">5. Student ID:</label>
+                <input type="text" id="student_id" name="student_id" placeholder="  Student ID" style="margin-left:50px; margin-bottom: 30px;">
+                <br>
+
+                <label for="intersting" >6. Was content useful and interesting </label><br>
+                <a>Worst</a><input type="range" style="margin-bottom: 30px;">Best</form>
+                
+
+                <label for="organised">7. The programe was structured and well organised</label><br>
+                <a>Worst</a><input type="range" style="margin-bottom: 30px;">Best</form><br>
+
+                <label for="feedback">8. Comments:</label><br>
+                <textarea id="feedback" name="feedback" rows="7" cols="50"></textarea>
+                <br>
+
+                <button id="submit">Submit</button><br>
+                <a class="error-msg" id="errorMsg">Please fill the Required field*</a>            
+                
+
+            </form>    
+    </div>   
+    </div>  
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
