@@ -68,3 +68,8 @@ button:hover {
     font-weight: bold;
     
 }
+
+.e-required{
+    color:red;
+    font-weight: bold;
+}
