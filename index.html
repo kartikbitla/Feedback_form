@@ -15,22 +15,27 @@
             <form class="forms">
                 <label for="fname">1. First Name:</label>
                 <input type="text" id="fname" name="fname"placeholder=" First Name" style="margin-left:50px;">
+                <a id="e-fname" style="display:none" class="e-required">Required*</a>
                 <br>
 
                 <label for="lname">2. Last Name:</label>
                 <input type="text" id="lname" name="lname" placeholder=" Last Name" style="margin-left:50px;">
+                <a id="e-lname" style="display:none" class="e-required">Required*</a>
                 <br>
 
                 <label for="email">3. Email:</label>
                 <input type="text" id="email" name="email" placeholder="  xyz@example.com" style="margin-left:90px;">
+                <a id="e-email" style="display:none" class="e-required">Required*</a>
                 <br>
 
                 <label for="contact">4. Contact:</label>
                 <input type="tel" id="contact" name="contact" placeholder="  No Spamming" style="margin-left:75px;">
+                <a id="e-contact" style="display:none" class="e-required">Required*</a>
                 <br>
 
                 <label for="student_id">5. Student ID:</label>
                 <input type="text" id="student_id" name="student_id" placeholder="  Student ID" style="margin-left:50px; margin-bottom: 30px;">
+                <a id="e-studentId" style="display:none" class="e-required">Required*</a>
                 <br>
 
                 <label for="intersting" >6. Was content useful and interesting </label><br>
@@ -45,7 +50,7 @@
                 <br>
 
                 <button id="submit">Submit</button><br>
-                <a class="error-msg" id="errorMsg">Please fill the Required field*</a>            
+                <a class="error-msg" id="errorMsg" style="display:none">Please fill the Required field*</a>       
                 
 
             </form>    
